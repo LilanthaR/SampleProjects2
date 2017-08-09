@@ -1,0 +1,36 @@
+﻿
+@model IJSE.POS.Common.Models.Customer
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Index</h2>
+<p> this is Test controler Index</p>
+<!-- Row 1-->
+<div class="row">
+    <!--Column 01-->
+    <div class="col-md-4 col-sm-2 col-xs-1" style="background-color:#ffd800;">
+        <p> column 01 </p>
+        <p> Customer Name : @Model.Name.ToString()</p>
+        <p> Customer Address : @Model.Address.ToString()</p>
+    </div>
+    <!--Column 02-->
+    <div class="col-md-6 col-sm-6" style="background-color:#4cff00;">
+        <p> column 02 </p>
+    </div>
+    <!--Column 03-->
+    <div class="col-md-2 col-sm-2" style="background-color:#06084a;">
+        <p> column 03 </p>
+    </div>
+</div>
+
+<!-- Row 2-->
+<div class="row">
+
+</div>
+
+<!-- Row 3-->
+<div class="row">
+
+</div>
+
